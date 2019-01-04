@@ -1,0 +1,233 @@
+2019-01-04 16:13:03,774 INFO [15465931801942257072]            BasicBook.java:498  | 1 sheet in /Users/lukicenturi/Sites/playmypaper/public/scan/15465931801942257072.jpg
+2019-01-04 16:13:03,905 INFO []            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:13:03,905 INFO []            BasicBook.java:1462 | Book stored as /Users/lukicenturi/Sites/playmypaper/public/xml/15465931801942257072/15465931801942257072.omr
+2019-01-04 16:13:03,910 INFO []            BasicBook.java:1113 | Book reaching PAGE on sheets:[#1]
+2019-01-04 16:13:03,911 INFO [15465931801942257072]       StepMonitoring.java:96   | LOAD
+2019-01-04 16:13:03,966 INFO [15465931801942257072]            BasicBook.java:1028 | Loaded image 1 2400x1944 from /Users/lukicenturi/Sites/playmypaper/public/scan/15465931801942257072.jpg
+2019-01-04 16:13:03,970 INFO [15465931801942257072]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:13:04,175 INFO [15465931801942257072]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:13:04,176 INFO [15465931801942257072]       StepMonitoring.java:96   | BINARY
+2019-01-04 16:13:04,519 INFO [15465931801942257072]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:13:04,765 INFO [15465931801942257072]              Picture.java:797  | Stored /sheet#1/BINARY.xml
+2019-01-04 16:13:04,767 INFO [15465931801942257072]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:13:04,768 INFO [15465931801942257072]       StepMonitoring.java:96   | SCALE
+2019-01-04 16:13:04,789 INFO [15465931801942257072]            ScaleStep.java:87   | Scale{line(2,3,4) interline(21,21,22) beam(12)}
+2019-01-04 16:13:04,791 INFO [15465931801942257072]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:13:04,792 INFO [15465931801942257072]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:13:04,794 INFO [15465931801942257072]       StepMonitoring.java:96   | GRID
+2019-01-04 16:13:05,108 INFO [15465931801942257072]       LinesRetriever.java:444  | Global slope: 0.00595
+2019-01-04 16:13:05,146 INFO [15465931801942257072]    ClustersRetriever.java:242  | Retrieved line clusters: 6 of size: 5 with interline: (21,21,22)
+2019-01-04 16:13:05,338 INFO [15465931801942257072]            PeakGraph.java:181  | Systems: #1[1, 2] #2[3, 4] #3[5, 6]
+2019-01-04 16:13:05,638 INFO [15465931801942257072]        SystemManager.java:662  | Indentation detected for system#1
+2019-01-04 16:13:05,639 INFO [15465931801942257072]        SystemManager.java:745  | 1 part along 3 systems
+2019-01-04 16:13:05,641 INFO [15465931801942257072]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:13:05,736 INFO [15465931801942257072]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:13:05,738 INFO [15465931801942257072]       StepMonitoring.java:96   | HEADERS
+2019-01-04 16:13:05,895 INFO [15465931801942257072]      BasicClassifier.java:391  | Classifier loaded XML norms.
+2019-01-04 16:13:05,899 INFO [15465931801942257072]   AbstractClassifier.java:355  | Classifier data loaded from default uri file:///Users/lukicenturi/Sites/playmypaper/audiveris/res/basic-classifier.zip
+2019-01-04 16:13:06,735 INFO [15465931801942257072]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:13:06,835 INFO [15465931801942257072]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:13:06,837 INFO [15465931801942257072]       StepMonitoring.java:96   | STEM_SEEDS
+2019-01-04 16:13:06,902 INFO [15465931801942257072]        StemSeedsStep.java:92   | stem(3 max:4)
+2019-01-04 16:13:06,955 INFO [15465931801942257072]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:13:07,065 INFO [15465931801942257072]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:13:07,067 INFO [15465931801942257072]       StepMonitoring.java:96   | BEAMS
+2019-01-04 16:13:09,258 INFO [15465931801942257072]       BlackHeadSizer.java:99   | Spots black-head retrieval diameter: 18.9
+2019-01-04 16:13:09,443 INFO [15465931801942257072]       BlackHeadSizer.java:251  | Core black head count: 41 blackHead(width:25.1~0.5 height:23.9~1.1)
+2019-01-04 16:13:09,445 INFO [15465931801942257072]       BlackHeadSizer.java:256  | MusicFont{name:MusicalSymbols pointSize:84}
+2019-01-04 16:13:09,631 INFO [15465931801942257072]            BeamsStep.java:89   | BeamDistance{count:44 mean:18.09 stdDev:4.96}
+2019-01-04 16:13:09,634 INFO [15465931801942257072]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:13:09,685 INFO [15465931801942257072]              Picture.java:797  | Stored /sheet#1/HEAD_SPOTS.xml
+2019-01-04 16:13:10,067 INFO [15465931801942257072]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:13:10,069 INFO [15465931801942257072]       StepMonitoring.java:96   | LEDGERS
+2019-01-04 16:13:10,296 INFO [15465931801942257072]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:13:10,683 INFO [15465931801942257072]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:13:10,685 INFO [15465931801942257072]       StepMonitoring.java:96   | HEADS
+2019-01-04 16:13:12,398 INFO [15465931801942257072]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:13:12,791 INFO [15465931801942257072]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:13:12,794 INFO [15465931801942257072]       StepMonitoring.java:96   | STEMS
+2019-01-04 16:13:13,187 INFO [15465931801942257072]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:13:13,677 INFO [15465931801942257072]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:13:13,679 INFO [15465931801942257072]       StepMonitoring.java:96   | REDUCTION
+2019-01-04 16:13:13,761 INFO [15465931801942257072]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:13:14,241 INFO [15465931801942257072]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:13:14,243 INFO [15465931801942257072]       StepMonitoring.java:96   | CUE_BEAMS
+2019-01-04 16:13:14,254 INFO [15465931801942257072]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:13:14,692 INFO [15465931801942257072]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:13:14,694 INFO [15465931801942257072]       StepMonitoring.java:96   | TEXTS
+2019-01-04 16:13:17,558 INFO [15465931801942257072]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:13:17,949 INFO [15465931801942257072]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:13:17,954 INFO [15465931801942257072]       StepMonitoring.java:96   | MEASURES
+2019-01-04 16:13:17,959 INFO [15465931801942257072]                 Page.java:260  | 15 raw measures: [4 in system#1, 6 in system#2, 5 in system#3]
+2019-01-04 16:13:17,960 INFO [15465931801942257072]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:13:18,328 INFO [15465931801942257072]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:13:18,330 INFO [15465931801942257072]       StepMonitoring.java:96   | CHORDS
+2019-01-04 16:13:18,351 INFO [15465931801942257072]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:13:18,743 INFO [15465931801942257072]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:13:18,745 INFO [15465931801942257072]       StepMonitoring.java:96   | CURVES
+2019-01-04 16:13:19,473 INFO [15465931801942257072]         SlursBuilder.java:157  | Slurs: 2
+2019-01-04 16:13:19,483 INFO [15465931801942257072]      SegmentsBuilder.java:114  | Segments: 16
+2019-01-04 16:13:19,488 INFO [15465931801942257072]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:13:19,948 INFO [15465931801942257072]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:13:19,950 INFO [15465931801942257072]       StepMonitoring.java:96   | SYMBOLS
+2019-01-04 16:13:20,157 INFO [15465931801942257072]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:13:20,652 INFO [15465931801942257072]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:13:20,654 INFO [15465931801942257072]       StepMonitoring.java:96   | LINKS
+2019-01-04 16:13:20,681 INFO [15465931801942257072]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:13:21,182 INFO [15465931801942257072]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:13:21,184 INFO [15465931801942257072]       StepMonitoring.java:96   | RHYTHMS
+2019-01-04 16:13:21,217 INFO [15465931801942257072]           PageRhythm.java:380  | Range{1-15 ts:2/4 dur:1/2} guess:1/2
+2019-01-04 16:13:21,235 INFO [15465931801942257072]                Voice.java:264  | S3 {Measure#15P1} Voice #1 too long 1
+2019-01-04 16:13:21,236 INFO [15465931801942257072]                Voice.java:264  | S3 {Measure#15P1} Voice #5 too long 1
+2019-01-04 16:13:21,236 INFO [15465931801942257072]           StackTuner.java:92   | S3 MeasureStack#15 no correct rhythm
+2019-01-04 16:13:21,238 INFO [15465931801942257072]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:13:21,747 INFO [15465931801942257072]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:13:21,748 INFO [15465931801942257072]       StepMonitoring.java:96   | PAGE
+2019-01-04 16:13:21,752 INFO [15465931801942257072]                Voice.java:264  | S3 {Measure#15P1} Voice #1 too long 1
+2019-01-04 16:13:21,752 INFO [15465931801942257072]                Voice.java:264  | S3 {Measure#15P1} Voice #5 too long 1
+2019-01-04 16:13:21,754 INFO [15465931801942257072]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:13:22,245 INFO [15465931801942257072]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:13:22,246 INFO [15465931801942257072]            BasicStub.java:758  | Sheet{15465931801942257072} disposed
+2019-01-04 16:13:22,631 INFO [15465931801942257072]            BasicStub.java:484  | Loaded /sheet#1/sheet#1.xml
+2019-01-04 16:13:22,631 INFO [15465931801942257072]            BasicBook.java:1234 | Scores built: 1
+2019-01-04 16:13:23,504 WARN [15465931801942257072]      PartwiseBuilder.java:1046 | Cannot process barline
+java.lang.IllegalArgumentException: Unknown bar style null
+	at org.audiveris.omr.score.MusicXML.barStyleOf(MusicXML.java:117)
+	at org.audiveris.omr.score.PartwiseBuilder.processBarline(PartwiseBuilder.java:946)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:2061)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2602)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1495)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2557)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2090)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2269)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:306)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:660)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:791)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:350)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+Caused by: java.lang.NullPointerException: null
+	at org.audiveris.omr.score.MusicXML.barStyleOf(MusicXML.java:115)
+	... 17 common frames omitted
+2019-01-04 16:13:23,505 WARN [15465931801942257072]      PartwiseBuilder.java:1046 | Cannot process barline
+java.lang.IllegalArgumentException: Unknown bar style null
+	at org.audiveris.omr.score.MusicXML.barStyleOf(MusicXML.java:117)
+	at org.audiveris.omr.score.PartwiseBuilder.processBarline(PartwiseBuilder.java:946)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1594)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:2061)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2602)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1495)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2557)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2090)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2269)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:306)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:660)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:791)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:350)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+Caused by: java.lang.NullPointerException: null
+	at org.audiveris.omr.score.MusicXML.barStyleOf(MusicXML.java:115)
+	... 17 common frames omitted
+2019-01-04 16:13:23,511 WARN [15465931801942257072]      PartwiseBuilder.java:1046 | Cannot process barline
+java.lang.IllegalArgumentException: Unknown bar style null
+	at org.audiveris.omr.score.MusicXML.barStyleOf(MusicXML.java:117)
+	at org.audiveris.omr.score.PartwiseBuilder.processBarline(PartwiseBuilder.java:946)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:2061)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2602)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1495)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2557)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2090)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2269)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:306)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:660)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:791)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:350)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+Caused by: java.lang.NullPointerException: null
+	at org.audiveris.omr.score.MusicXML.barStyleOf(MusicXML.java:115)
+	... 17 common frames omitted
+2019-01-04 16:13:23,511 WARN [15465931801942257072]      PartwiseBuilder.java:1046 | Cannot process barline
+java.lang.IllegalArgumentException: Unknown bar style null
+	at org.audiveris.omr.score.MusicXML.barStyleOf(MusicXML.java:117)
+	at org.audiveris.omr.score.PartwiseBuilder.processBarline(PartwiseBuilder.java:946)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1594)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:2061)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2602)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1495)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2557)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2090)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2269)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:306)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:660)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:791)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:350)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+Caused by: java.lang.NullPointerException: null
+	at org.audiveris.omr.score.MusicXML.barStyleOf(MusicXML.java:115)
+	... 17 common frames omitted
+2019-01-04 16:13:23,514 WARN [15465931801942257072]      PartwiseBuilder.java:1046 | Cannot process barline
+java.lang.IllegalArgumentException: Unknown bar style null
+	at org.audiveris.omr.score.MusicXML.barStyleOf(MusicXML.java:117)
+	at org.audiveris.omr.score.PartwiseBuilder.processBarline(PartwiseBuilder.java:946)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1735)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:2061)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2602)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1495)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2557)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2090)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2269)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:306)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:660)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:791)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:350)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+Caused by: java.lang.NullPointerException: null
+	at org.audiveris.omr.score.MusicXML.barStyleOf(MusicXML.java:115)
+	... 17 common frames omitted
+2019-01-04 16:13:23,515 WARN [15465931801942257072]      PartwiseBuilder.java:1046 | Cannot process barline
+java.lang.IllegalArgumentException: Unknown bar style null
+	at org.audiveris.omr.score.MusicXML.barStyleOf(MusicXML.java:117)
+	at org.audiveris.omr.score.PartwiseBuilder.processBarline(PartwiseBuilder.java:946)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1594)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:2061)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2602)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1495)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2557)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2090)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2269)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:306)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:117)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:91)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:660)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:791)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:350)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at Audiveris.main(Audiveris.java:49)
+Caused by: java.lang.NullPointerException: null
+	at org.audiveris.omr.score.MusicXML.barStyleOf(MusicXML.java:115)
+	... 17 common frames omitted
+2019-01-04 16:13:23,553 INFO [15465931801942257072]        ScoreExporter.java:93   | Score 15465931801942257072 exported to /Users/lukicenturi/Sites/playmypaper/public/xml/15465931801942257072/15465931801942257072.mxl
+2019-01-04 16:13:23,638 INFO [15465931801942257072]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:13:23,638 INFO [15465931801942257072]            BasicBook.java:1462 | Book stored as /Users/lukicenturi/Sites/playmypaper/public/xml/15465931801942257072/15465931801942257072.omr

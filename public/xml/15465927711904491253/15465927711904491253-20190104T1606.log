@@ -1,0 +1,90 @@
+2019-01-04 16:06:34,983 INFO [15465927711904491253]            BasicBook.java:498  | 1 sheet in /Users/lukicenturi/Sites/playmypaper/public/scan/15465927711904491253.jpg
+2019-01-04 16:06:35,147 INFO []            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:06:35,147 INFO []            BasicBook.java:1462 | Book stored as /Users/lukicenturi/Sites/playmypaper/public/xml/15465927711904491253/15465927711904491253.omr
+2019-01-04 16:06:35,153 INFO []            BasicBook.java:1113 | Book reaching PAGE on sheets:[#1]
+2019-01-04 16:06:35,154 INFO [15465927711904491253]       StepMonitoring.java:96   | LOAD
+2019-01-04 16:06:35,215 INFO [15465927711904491253]            BasicBook.java:1028 | Loaded image 1 2520x2183 from /Users/lukicenturi/Sites/playmypaper/public/scan/15465927711904491253.jpg
+2019-01-04 16:06:35,219 INFO [15465927711904491253]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:06:35,431 INFO [15465927711904491253]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:06:35,433 INFO [15465927711904491253]       StepMonitoring.java:96   | BINARY
+2019-01-04 16:06:35,829 INFO [15465927711904491253]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:06:36,081 INFO [15465927711904491253]              Picture.java:797  | Stored /sheet#1/BINARY.xml
+2019-01-04 16:06:36,083 INFO [15465927711904491253]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:06:36,084 INFO [15465927711904491253]       StepMonitoring.java:96   | SCALE
+2019-01-04 16:06:36,107 INFO [15465927711904491253]            ScaleStep.java:87   | Scale{line(2,3,4) interline(21,21,23) beam(12)}
+2019-01-04 16:06:36,108 INFO [15465927711904491253]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:06:36,110 INFO [15465927711904491253]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:06:36,112 INFO [15465927711904491253]       StepMonitoring.java:96   | GRID
+2019-01-04 16:06:36,469 INFO [15465927711904491253]       LinesRetriever.java:444  | Global slope: -0.00212
+2019-01-04 16:06:36,495 INFO [15465927711904491253]    ClustersRetriever.java:242  | Retrieved line clusters: 6 of size: 5 with interline: (21,21,23)
+2019-01-04 16:06:36,720 INFO [15465927711904491253]            PeakGraph.java:181  | Systems: #1[1, 2] #2[3, 4] #3[5, 6]
+2019-01-04 16:06:37,080 INFO [15465927711904491253]        SystemManager.java:662  | Indentation detected for system#1
+2019-01-04 16:06:37,080 INFO [15465927711904491253]        SystemManager.java:745  | 1 part along 3 systems
+2019-01-04 16:06:37,084 INFO [15465927711904491253]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:06:37,179 INFO [15465927711904491253]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:06:37,182 INFO [15465927711904491253]       StepMonitoring.java:96   | HEADERS
+2019-01-04 16:06:37,346 INFO [15465927711904491253]      BasicClassifier.java:391  | Classifier loaded XML norms.
+2019-01-04 16:06:37,349 INFO [15465927711904491253]   AbstractClassifier.java:355  | Classifier data loaded from default uri file:///Users/lukicenturi/Sites/playmypaper/audiveris/res/basic-classifier.zip
+2019-01-04 16:06:38,244 INFO [15465927711904491253]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:06:38,345 INFO [15465927711904491253]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:06:38,347 INFO [15465927711904491253]       StepMonitoring.java:96   | STEM_SEEDS
+2019-01-04 16:06:38,433 INFO [15465927711904491253]        StemSeedsStep.java:92   | stem(2 max:4)
+2019-01-04 16:06:38,486 INFO [15465927711904491253]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:06:38,596 INFO [15465927711904491253]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:06:38,598 INFO [15465927711904491253]       StepMonitoring.java:96   | BEAMS
+2019-01-04 16:06:41,270 INFO [15465927711904491253]       BlackHeadSizer.java:99   | Spots black-head retrieval diameter: 18.9
+2019-01-04 16:06:41,441 INFO [15465927711904491253]       BlackHeadSizer.java:251  | Core black head count: 36 blackHead(width:24.8~0.4 height:22.9~1.4)
+2019-01-04 16:06:41,442 INFO [15465927711904491253]       BlackHeadSizer.java:256  | MusicFont{name:MusicalSymbols pointSize:83}
+2019-01-04 16:06:41,580 INFO [15465927711904491253]            BeamsStep.java:89   | BeamDistance{count:27 mean:16.31 stdDev:6.92}
+2019-01-04 16:06:41,583 INFO [15465927711904491253]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:06:41,629 INFO [15465927711904491253]              Picture.java:797  | Stored /sheet#1/HEAD_SPOTS.xml
+2019-01-04 16:06:41,955 INFO [15465927711904491253]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:06:41,957 INFO [15465927711904491253]       StepMonitoring.java:96   | LEDGERS
+2019-01-04 16:06:42,221 INFO [15465927711904491253]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:06:42,440 INFO [15465927711904491253]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:06:42,442 INFO [15465927711904491253]       StepMonitoring.java:96   | HEADS
+2019-01-04 16:06:44,140 INFO [15465927711904491253]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:06:44,485 INFO [15465927711904491253]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:06:44,487 INFO [15465927711904491253]       StepMonitoring.java:96   | STEMS
+2019-01-04 16:06:44,878 INFO [15465927711904491253]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:06:45,302 INFO [15465927711904491253]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:06:45,304 INFO [15465927711904491253]       StepMonitoring.java:96   | REDUCTION
+2019-01-04 16:06:45,379 INFO [15465927711904491253]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:06:45,750 INFO [15465927711904491253]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:06:45,753 INFO [15465927711904491253]       StepMonitoring.java:96   | CUE_BEAMS
+2019-01-04 16:06:45,763 INFO [15465927711904491253]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:06:46,131 INFO [15465927711904491253]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:06:46,134 INFO [15465927711904491253]       StepMonitoring.java:96   | TEXTS
+2019-01-04 16:06:48,773 INFO [15465927711904491253]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:06:49,123 INFO [15465927711904491253]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:06:49,126 INFO [15465927711904491253]       StepMonitoring.java:96   | MEASURES
+2019-01-04 16:06:49,129 INFO [15465927711904491253]                 Page.java:260  | 17 raw measures: [6 in system#1, 5 in system#2, 6 in system#3]
+2019-01-04 16:06:49,131 INFO [15465927711904491253]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:06:49,486 INFO [15465927711904491253]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:06:49,488 INFO [15465927711904491253]       StepMonitoring.java:96   | CHORDS
+2019-01-04 16:06:49,508 INFO [15465927711904491253]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:06:49,884 INFO [15465927711904491253]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:06:49,886 INFO [15465927711904491253]       StepMonitoring.java:96   | CURVES
+2019-01-04 16:06:50,746 INFO [15465927711904491253]         SlursBuilder.java:157  | Slurs: 3
+2019-01-04 16:06:50,752 INFO [15465927711904491253]      SegmentsBuilder.java:114  | Segments: 11
+2019-01-04 16:06:50,756 INFO [15465927711904491253]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:06:51,173 INFO [15465927711904491253]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:06:51,175 INFO [15465927711904491253]       StepMonitoring.java:96   | SYMBOLS
+2019-01-04 16:06:51,442 INFO [15465927711904491253]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:06:51,891 INFO [15465927711904491253]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:06:51,893 INFO [15465927711904491253]       StepMonitoring.java:96   | LINKS
+2019-01-04 16:06:51,925 INFO [15465927711904491253]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:06:52,371 INFO [15465927711904491253]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:06:52,373 INFO [15465927711904491253]       StepMonitoring.java:96   | RHYTHMS
+2019-01-04 16:06:52,410 INFO [15465927711904491253]           PageRhythm.java:380  | Range{1-17 ts:2/4 dur:1/2} guess:1/2
+2019-01-04 16:06:52,433 INFO [15465927711904491253]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:06:52,890 INFO [15465927711904491253]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:06:52,892 INFO [15465927711904491253]       StepMonitoring.java:96   | PAGE
+2019-01-04 16:06:52,897 INFO [15465927711904491253]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:06:53,349 INFO [15465927711904491253]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-04 16:06:53,351 INFO [15465927711904491253]            BasicStub.java:758  | Sheet{15465927711904491253} disposed
+2019-01-04 16:06:53,749 INFO [15465927711904491253]            BasicStub.java:484  | Loaded /sheet#1/sheet#1.xml
+2019-01-04 16:06:53,750 INFO [15465927711904491253]            BasicBook.java:1234 | Scores built: 1
+2019-01-04 16:06:54,655 INFO [15465927711904491253]        ScoreExporter.java:93   | Score 15465927711904491253 exported to /Users/lukicenturi/Sites/playmypaper/public/xml/15465927711904491253/15465927711904491253.mxl
+2019-01-04 16:06:54,738 INFO [15465927711904491253]            BasicBook.java:1502 | Stored /book.xml
+2019-01-04 16:06:54,739 INFO [15465927711904491253]            BasicBook.java:1462 | Book stored as /Users/lukicenturi/Sites/playmypaper/public/xml/15465927711904491253/15465927711904491253.omr
