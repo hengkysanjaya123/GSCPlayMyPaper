@@ -9,7 +9,7 @@
                 <img src="{{asset('images/logo.png')}}" alt="logo">
             </div>
             <div class="form-group">
-                <input type="file" id="file" accept="image/*">
+                <input type="file" id="file">
                 <button id="go">GO</button>
             </div>
         </div>

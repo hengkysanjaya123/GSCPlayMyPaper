@@ -1,0 +1,68 @@
+2019-01-10 14:44:58,133 INFO [15471062812089727746]                 Book.java:473  | 1 sheet in /Users/lukicenturi/Sites/playmypaper/public/scan/15471062812089727746.png
+2019-01-10 14:44:58,274 INFO []                 Book.java:1660 | Stored /book.xml
+2019-01-10 14:44:58,274 INFO []                 Book.java:1613 | Book stored as /Users/lukicenturi/Sites/playmypaper/public/xml/15471062812089727746/15471062812089727746.omr
+2019-01-10 14:44:58,279 INFO []                 Book.java:1327 | Book reaching PAGE on sheets:[#1]
+2019-01-10 14:44:58,280 INFO [15471062812089727746]       StepMonitoring.java:93   | LOAD
+2019-01-10 14:44:58,354 INFO [15471062812089727746]                 Book.java:1226 | Loaded image 1 1205x1600 from /Users/lukicenturi/Sites/playmypaper/public/scan/15471062812089727746.png
+2019-01-10 14:44:58,357 INFO [15471062812089727746]            ImageUtil.java:81   | Converting max RGB to gray ...
+2019-01-10 14:44:58,424 INFO [15471062812089727746]       StepMonitoring.java:93   | BINARY
+2019-01-10 14:44:58,604 INFO [15471062812089727746]       StepMonitoring.java:93   | SCALE
+2019-01-10 14:44:58,626 INFO [15471062812089727746]         ScaleBuilder.java:492  | Beam minHeight:3 maxHeight:10 quorum:1327
+2019-01-10 14:44:58,627 INFO [15471062812089727746]            ScaleStep.java:84   | Scale{line(1,2,3) interline(11,11,12) beam(7)}
+2019-01-10 14:44:58,629 INFO [15471062812089727746]       StepMonitoring.java:93   | GRID
+2019-01-10 14:44:58,962 INFO [15471062812089727746]       LinesRetriever.java:447  | Global slope: 0.00000
+2019-01-10 14:44:59,003 INFO [15471062812089727746]    ClustersRetriever.java:235  | Retrieved line clusters: 9 of size: 5 with interline: interline(11,11,12)
+2019-01-10 14:44:59,266 INFO [15471062812089727746]            PeakGraph.java:177  | Systems: #1[1] #2[2] #3[3] #4[4] #5[5] #6[6] #7[7] #8[8] #9[9]
+2019-01-10 14:44:59,806 INFO [15471062812089727746]        SystemManager.java:731  | 1 part along 9 systems
+2019-01-10 14:44:59,808 INFO [15471062812089727746]       StepMonitoring.java:93   | HEADERS
+2019-01-10 14:44:59,986 INFO [15471062812089727746]      BasicClassifier.java:362  | Classifier loaded XML norms.
+2019-01-10 14:44:59,991 INFO [15471062812089727746]   AbstractClassifier.java:348  | Classifier data loaded from default uri file:///Users/lukicenturi/Sites/playmypaper/audiveris/res/basic-classifier.zip
+2019-01-10 14:45:00,679 INFO [15471062812089727746]       StepMonitoring.java:93   | STEM_SEEDS
+2019-01-10 14:45:00,735 INFO [15471062812089727746]        StemSeedsStep.java:93   | stem(3 max:4)
+2019-01-10 14:45:00,795 INFO [15471062812089727746]       StepMonitoring.java:93   | BEAMS
+2019-01-10 14:45:01,379 INFO [15471062812089727746]       BlackHeadSizer.java:95   | Spots black-head retrieval diameter: 9.9
+2019-01-10 14:45:01,406 INFO [15471062812089727746]       BlackHeadSizer.java:243  | Core black head count: 70 blackHead(width:15.5~0.5 height:12.6~0.7)
+2019-01-10 14:45:01,409 INFO [15471062812089727746]       BlackHeadSizer.java:248  | MusicFont{name:MusicalSymbols pointSize:52}
+2019-01-10 14:45:01,543 INFO [15471062812089727746]            BeamsStep.java:86   | BeamDistance{count:80 mean:8.49 stdDev:1.36}
+2019-01-10 14:45:01,545 INFO [15471062812089727746]       StepMonitoring.java:93   | LEDGERS
+2019-01-10 14:45:02,195 INFO [15471062812089727746]       StepMonitoring.java:93   | HEADS
+2019-01-10 14:45:03,394 INFO [15471062812089727746]       StepMonitoring.java:93   | STEMS
+2019-01-10 14:45:03,822 INFO [15471062812089727746]       StepMonitoring.java:93   | REDUCTION
+2019-01-10 14:45:03,895 INFO [15471062812089727746]       StepMonitoring.java:93   | CUE_BEAMS
+2019-01-10 14:45:03,896 INFO [15471062812089727746]       StepMonitoring.java:93   | TEXTS
+2019-01-10 14:45:15,564 INFO [15471062812089727746]       StepMonitoring.java:93   | MEASURES
+2019-01-10 14:45:15,571 INFO [15471062812089727746]                 Page.java:251  | 34 raw measures: [5 in system#1, 4 in system#2, 4 in system#3, 4 in system#4, 4 in system#5, 4 in system#6, 4 in system#7, 2 in system#8, 3 in system#9]
+2019-01-10 14:45:15,571 INFO [15471062812089727746]       StepMonitoring.java:93   | CHORDS
+2019-01-10 14:45:15,591 INFO [15471062812089727746]       StepMonitoring.java:93   | CURVES
+2019-01-10 14:45:16,205 INFO [15471062812089727746]         SlursBuilder.java:156  | Slurs: 0
+2019-01-10 14:45:16,223 INFO [15471062812089727746]      SegmentsBuilder.java:110  | Segments: 33
+2019-01-10 14:45:16,229 INFO [15471062812089727746]       StepMonitoring.java:93   | SYMBOLS
+2019-01-10 14:45:16,613 INFO [15471062812089727746]         InterFactory.java:517  | No support yet for TIME_ZERO
+2019-01-10 14:45:16,650 INFO [15471062812089727746]       StepMonitoring.java:93   | LINKS
+2019-01-10 14:45:16,657 INFO [15471062812089727746]       LyricItemInter.java:296  | No head-chord for LyricItemInter{#2862(0.729) s:2 "10" Syllable}
+2019-01-10 14:45:16,660 INFO [15471062812089727746]        SymbolsLinker.java:155  | No chord near direction SentenceInter{#2946(0.729) s:3 S-28 Direction} 10
+2019-01-10 14:45:16,661 INFO [15471062812089727746]       LyricItemInter.java:296  | No head-chord for LyricItemInter{#2972(0.720) s:3 "14" Syllable}
+2019-01-10 14:45:16,663 INFO [15471062812089727746]        SymbolsLinker.java:155  | No chord near direction SentenceInter{#3049(0.720) s:4 S-28 Direction} 14
+2019-01-10 14:45:16,664 INFO [15471062812089727746]       LyricItemInter.java:296  | No head-chord for LyricItemInter{#3070(0.668) s:4 "18" Syllable}
+2019-01-10 14:45:16,667 INFO [15471062812089727746]        SymbolsLinker.java:155  | No chord near direction SentenceInter{#3225(0.668) s:5 S-29 Direction} 18
+2019-01-10 14:45:16,668 INFO [15471062812089727746]       LyricItemInter.java:296  | No head-chord for LyricItemInter{#3267(0.701) s:5 "22" Syllable}
+2019-01-10 14:45:16,670 INFO [15471062812089727746]        SymbolsLinker.java:155  | No chord near direction SentenceInter{#3376(0.701) s:6 S-26 Direction} 22
+2019-01-10 14:45:16,671 INFO [15471062812089727746]       LyricItemInter.java:296  | No head-chord for LyricItemInter{#3410(0.687) s:6 "26" Syllable}
+2019-01-10 14:45:16,674 INFO [15471062812089727746]        SymbolsLinker.java:155  | No chord near direction SentenceInter{#3525(0.687) s:7 S-28 Direction} 26
+2019-01-10 14:45:16,674 INFO [15471062812089727746]       LyricItemInter.java:296  | No head-chord for LyricItemInter{#3564(0.686) s:7 "30" Syllable}
+2019-01-10 14:45:16,677 INFO [15471062812089727746]        SymbolsLinker.java:155  | No chord near direction SentenceInter{#3588(0.686) s:8 S-26 Direction} 30
+2019-01-10 14:45:16,677 INFO [15471062812089727746]       LyricItemInter.java:296  | No head-chord for LyricItemInter{#3591(0.672) s:8 "32" Syllable}
+2019-01-10 14:45:16,679 INFO [15471062812089727746]        SymbolsLinker.java:155  | No chord near direction SentenceInter{#3676(0.672) s:9 S-26 Direction} 32
+2019-01-10 14:45:16,679 INFO [15471062812089727746]       LyricItemInter.java:296  | No head-chord for LyricItemInter{#3695(0.604) s:9 "http://sahabatkuseni.blogspot.oom" Syllable}
+2019-01-10 14:45:16,681 INFO [15471062812089727746]       StepMonitoring.java:93   | RHYTHMS
+2019-01-10 14:45:16,739 INFO [15471062812089727746]       StepMonitoring.java:93   | PAGE
+2019-01-10 14:45:16,743 INFO [15471062812089727746]            SheetStub.java:974  | Stub#1 storing
+2019-01-10 14:45:16,746 INFO [15471062812089727746]                 Book.java:1660 | Stored /book.xml
+2019-01-10 14:45:16,898 INFO [15471062812089727746]              Picture.java:784  | Stored /sheet#1/BINARY.xml
+2019-01-10 14:45:17,653 INFO [15471062812089727746]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2019-01-10 14:45:17,654 INFO [15471062812089727746]            SheetStub.java:979  | Sheet{15471062812089727746} disposed
+2019-01-10 14:45:18,207 INFO [15471062812089727746]            SheetStub.java:632  | Loaded /sheet#1/sheet#1.xml
+2019-01-10 14:45:18,208 INFO [15471062812089727746]                 Book.java:1451 | Scores built: 1
+2019-01-10 14:45:19,151 INFO [15471062812089727746]        ScoreExporter.java:88   | Score 15471062812089727746 exported to /Users/lukicenturi/Sites/playmypaper/public/xml/15471062812089727746/15471062812089727746.mxl
+2019-01-10 14:45:19,279 INFO [15471062812089727746]                 Book.java:1660 | Stored /book.xml
+2019-01-10 14:45:19,280 INFO [15471062812089727746]                 Book.java:1613 | Book stored as /Users/lukicenturi/Sites/playmypaper/public/xml/15471062812089727746/15471062812089727746.omr

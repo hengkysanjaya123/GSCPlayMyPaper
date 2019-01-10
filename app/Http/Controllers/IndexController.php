@@ -10,24 +10,18 @@ class IndexController extends Controller{
     }
 
     public function uploadFile(Request $request){
+        $file = $request->file('file');
+        $image = File::get($file);
         $name = strtotime(date('y-m-d h:i:s')) . rand();
-        $file = File::get($request->file('file'));
-        File::put('scan/' . $name . '.jpg', $file);
+        $ext = '.' . $file->extension();
+        File::put('scan/' . $name . $ext, $image);
 
-        return $this->convert($name);
+        return $this->convert($name, $ext);
     }
 
-    public function convert($name){
-        exec('export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/ && 
-        export PATH=${PATH}:${JAVA_HOME}/bin && 
-        export GRADLE_HOME=/usr/local/Cellar/gradle/4.10.2 &&
-        export PATH=${PATH}:${GRADLE_HOME}/bin &&
-        export GRADLE_USER_HOME=/Users/lukicenturi/.gradle &&
-        export PATH=${PATH}:${GRADLE_USER_HOME} &&
-        export TESSDATA_PREFIX=/usr/local/opt/tesseract/share &&
-        export PATH=${PATH}:${TESSDATA_PREFIX} &&
-        cd /Users/lukicenturi/Sites/playmypaper/audiveris &&
-        sudo /usr/local/Cellar/gradle/4.10.2/bin/gradle run -PcmdLineArgs="-batch,-export,-output,'. base_path('public/xml') .',--,'. base_path('public/scan/'. $name . '.jpg').'" &&
+    public function convert($name, $ext){
+        exec('cd '. base_path('audiveris') .' &&
+        sudo gradle run -PcmdLineArgs="-batch,-export,-output,'. base_path('public/xml') .',--,'. base_path('public/scan/'. $name . $ext).'" &&
         cd '. base_path('public/xml/' . $name) . '
         sudo unzip -a '. $name . '.mxl');
 
@@ -36,6 +30,15 @@ class IndexController extends Controller{
         ];
 
         return response()->json($returnJSON);
+    }
+
+    public function test(){
+        exec('
+        cd /Users/lukicenturi/Sites/audiveris &&
+        sudo gradle run -PcmdLineArgs="-batch,-export,-output,/Users/lukicenturi/Sites/playmypaper/public/xml,--,/Users/lukicenturi/Sites/playmypaper/public/scan/1547104840231287994.jpg"', $a);
+        echo "<pre>";
+        print_r($a);
+        echo "</pre>";
     }
 
     public function playMusic($name, Request $request){
