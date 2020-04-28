@@ -15,8 +15,12 @@
 <body>
 @yield('section')
 <footer>
-    <div class="container">
-        Copyright &copy; 2018. Made For PKM-KC Purpose. Author: Luki Centuri, Dito Bagus Sutanto, Kelwin Tantono
+    <div class="container-fluid">
+        <div class="row">
+            {{--<div class="col-md-12 text-center" style="margin-top:15px;padding: 15px;background:#414141;color:white">--}}
+                {{--PlayMyPaper2020 | Developer Student Clubs [DSC] Solution Challenge 2020--}}
+            {{--</div>--}}
+        </div>
     </div>
 </footer>
 </body>

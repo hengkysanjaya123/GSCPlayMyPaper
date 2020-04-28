@@ -20,10 +20,13 @@ class IndexController extends Controller{
     }
 
     public function convert($name, $ext){
+//        return PHP_OS;
+//        WINNT
+
         exec('cd '. base_path('audiveris') .' &&
-        sudo gradle run -PcmdLineArgs="-batch,-export,-output,'. base_path('public/xml') .',--,'. base_path('public/scan/'. $name . $ext).'" &&
+        gradlew run -PcmdLineArgs="-batch,-export,-output,'. base_path('public/xml') .',--,'. base_path('public/scan/'. $name . $ext).'" &&
         cd '. base_path('public/xml/' . $name) . '
-        sudo unzip -a '. $name . '.mxl');
+         tar -xf '. $name . '.mxl');
 
         $returnJSON = [
             'name' => $name,

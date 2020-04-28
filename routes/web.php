@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'IndexController@index');
+Route::get('/gallery', 'GalleryController@index');
 Route::post('uploadFile', 'IndexController@uploadFile');
 Route::get('/{kode}', 'IndexController@playMusic');
 Route::get('/test/test', 'IndexController@test');

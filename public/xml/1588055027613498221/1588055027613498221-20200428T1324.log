@@ -1,0 +1,65 @@
+2020-04-28 13:24:23,401 INFO [1588055027613498221]                 Book.java:473  | 1 sheet in D:\Hengky_Sanjaya\OMR\playmypaper\public\scan\1588055027613498221.png
+2020-04-28 13:24:23,994 INFO []                 Book.java:1660 | Stored /book.xml
+2020-04-28 13:24:23,994 INFO []                 Book.java:1613 | Book stored as D:\Hengky_Sanjaya\OMR\playmypaper\public\xml\1588055027613498221\1588055027613498221.omr
+2020-04-28 13:24:24,006 INFO []                 Book.java:1327 | Book reaching PAGE on sheets:[#1]
+2020-04-28 13:24:24,009 INFO [1588055027613498221]       StepMonitoring.java:93   | LOAD
+2020-04-28 13:24:24,091 INFO [1588055027613498221]                 Book.java:1226 | Loaded image 1 1360x1760 from D:\Hengky_Sanjaya\OMR\playmypaper\public\scan\1588055027613498221.png
+2020-04-28 13:24:24,095 INFO [1588055027613498221]       StepMonitoring.java:93   | BINARY
+2020-04-28 13:24:24,460 INFO [1588055027613498221]       StepMonitoring.java:93   | SCALE
+2020-04-28 13:24:24,509 INFO [1588055027613498221]         ScaleBuilder.java:557  | Second combo peak too different (116,117,117), ignored
+2020-04-28 13:24:24,519 INFO [1588055027613498221]         ScaleBuilder.java:492  | Beam minHeight:4 maxHeight:12 quorum:1168
+2020-04-28 13:24:24,523 INFO [1588055027613498221]            ScaleStep.java:84   | Scale{line(2,2,3) interline(12,13,13) beam(7)}
+2020-04-28 13:24:24,524 INFO [1588055027613498221]       StepMonitoring.java:93   | GRID
+2020-04-28 13:24:25,595 INFO [1588055027613498221]       LinesRetriever.java:447  | Global slope: 0.00000
+2020-04-28 13:24:25,739 INFO [1588055027613498221]    ClustersRetriever.java:235  | Retrieved line clusters: 9 of size: 5 with interline: interline(12,13,13)
+2020-04-28 13:24:26,186 INFO [1588055027613498221]            PeakGraph.java:177  | Systems: #1[1] #2[2] #3[3] #4[4] #5[5] #6[6] #7[7] #8[8] #9[9]
+2020-04-28 13:24:26,649 INFO [1588055027613498221]        SystemManager.java:731  | 1 part along 9 systems
+2020-04-28 13:24:26,657 INFO [1588055027613498221]       StepMonitoring.java:93   | HEADERS
+2020-04-28 13:24:27,124 INFO [1588055027613498221]      BasicClassifier.java:362  | Classifier loaded XML norms.
+2020-04-28 13:24:27,140 INFO [1588055027613498221]   AbstractClassifier.java:348  | Classifier data loaded from default uri file:///D:/Hengky_Sanjaya/OMR/playmypaper/audiveris/res/basic-classifier.zip
+2020-04-28 13:24:28,847 INFO [1588055027613498221]       StepMonitoring.java:93   | STEM_SEEDS
+2020-04-28 13:24:28,918 INFO [1588055027613498221]        StemSeedsStep.java:93   | stem(2 max:3)
+2020-04-28 13:24:29,091 INFO [1588055027613498221]       StepMonitoring.java:93   | BEAMS
+2020-04-28 13:24:30,302 INFO [1588055027613498221]       BlackHeadSizer.java:95   | Spots black-head retrieval diameter: 11.7
+2020-04-28 13:24:30,386 INFO [1588055027613498221]       BlackHeadSizer.java:243  | Core black head count: 116 blackHead(width:17.0~0.0 height:13.6~0.9)
+2020-04-28 13:24:30,388 INFO [1588055027613498221]       BlackHeadSizer.java:248  | MusicFont{name:MusicalSymbols pointSize:57}
+2020-04-28 13:24:30,790 INFO [1588055027613498221]            BeamsStep.java:86   | BeamDistance{count:44 mean:9.37 stdDev:1.38}
+2020-04-28 13:24:30,793 INFO [1588055027613498221]       StepMonitoring.java:93   | LEDGERS
+2020-04-28 13:24:31,160 INFO [1588055027613498221]       StepMonitoring.java:93   | HEADS
+2020-04-28 13:24:33,305 INFO [1588055027613498221]       StepMonitoring.java:93   | STEMS
+2020-04-28 13:24:34,074 INFO [1588055027613498221]       StepMonitoring.java:93   | REDUCTION
+2020-04-28 13:24:34,425 INFO [1588055027613498221]       StepMonitoring.java:93   | CUE_BEAMS
+2020-04-28 13:24:34,430 INFO [1588055027613498221]       StepMonitoring.java:93   | TEXTS
+2020-04-28 13:24:34,932 WARN [1588055027613498221]       TesseractOrder.java:166  | Could not initialize Tesseract with lang deu+eng+fra
+2020-04-28 13:24:34,936 WARN [1588055027613498221]            SheetStub.java:845  | Error in performing [LOAD, BINARY, SCALE, GRID, HEADERS, STEM_SEEDS, BEAMS, LEDGERS, HEADS, STEMS, REDUCTION, CUE_BEAMS, TEXTS, MEASURES, CHORDS, CURVES, SYMBOLS, LINKS, RHYTHMS, PAGE] java.util.concurrent.ExecutionException: java.lang.NullPointerException
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:206)
+	at org.audiveris.omr.sheet.SheetStub.doOneStep(SheetStub.java:1111)
+	at org.audiveris.omr.sheet.SheetStub.reachStep(SheetStub.java:832)
+	at org.audiveris.omr.sheet.Book.reachBookStep(Book.java:1393)
+	at org.audiveris.omr.sheet.Book.transcribe(Book.java:1718)
+	at org.audiveris.omr.sheet.Book.export(Book.java:591)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:447)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:538)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:312)
+	at org.audiveris.omr.Main.main(Main.java:153)
+	at Audiveris.main(Audiveris.java:49)
+Caused by: java.lang.NullPointerException: null
+	at java.util.ArrayList.addAll(ArrayList.java:581)
+	at org.audiveris.omr.text.TextsStep.doProlog(TextsStep.java:80)
+	at org.audiveris.omr.text.TextsStep.doProlog(TextsStep.java:42)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:98)
+	at org.audiveris.omr.step.Step.doit(Step.java:184)
+	at org.audiveris.omr.sheet.SheetStub$4.call(SheetStub.java:1101)
+	at org.audiveris.omr.sheet.SheetStub$4.call(SheetStub.java:1089)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-28 13:24:34,943 INFO [1588055027613498221]                 Book.java:1451 | Scores built: 1
+2020-04-28 13:24:37,730 INFO [1588055027613498221]        ScoreExporter.java:88   | Score 1588055027613498221 exported to D:\Hengky_Sanjaya\OMR\playmypaper\public\xml\1588055027613498221\1588055027613498221.mxl
+2020-04-28 13:24:37,975 INFO [1588055027613498221]                 Book.java:1660 | Stored /book.xml
+2020-04-28 13:24:38,300 INFO [1588055027613498221]              Picture.java:784  | Stored /sheet#1/BINARY.xml
+2020-04-28 13:24:39,418 INFO [1588055027613498221]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2020-04-28 13:24:39,419 INFO [1588055027613498221]                 Book.java:1613 | Book stored as D:\Hengky_Sanjaya\OMR\playmypaper\public\xml\1588055027613498221\1588055027613498221.omr
