@@ -9,6 +9,10 @@ class IndexController extends Controller{
         return view('index');
     }
 
+    public function dashboard(){
+        return view('dashboard');
+    }
+
     public function uploadFile(Request $request){
         $file = $request->file('file');
         $image = File::get($file);

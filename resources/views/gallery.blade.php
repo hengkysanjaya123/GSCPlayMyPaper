@@ -8,22 +8,6 @@
     <div class="form">
         <div class="container">
 
-            <div class="row" style="margin-top: 15px;">
-                <div class="col-md-12">
-                    <div class="" style="padding:20px;">
-                        <div class="logo text-center">
-                            <img src="{{asset('images/logo.png')}}" alt="logo" width="250px;">
-                        </div>
-
-                        <div class="form-group">
-                            <input type="file" id="file">
-                            <button id="go">Play</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
             <div class="row" style="margin-top: 25px;">
                 <div class="col-md-12">
                     <div class="">
@@ -36,35 +20,22 @@
 
                         <div class="row">
 
-                            @foreach ($images as $image)
-                                {{--@if($loop->index % 3 == 0)--}}
-                                {{--@endif--}}
-
-                                <div class="col-md-6">
-                                    <div class="shadow" style="padding:10px">
-                                        {{--<div style="overflow:hidden;max-height: 350px;">--}}
-                                        <img src="{{ asset('sheetmusic_examples/' . $image->getFilename()) }}" class="" alt=""
-                                             width="100%">
-                                        {{--</div>--}}
-                                        {{--<div class="">--}}
-                                        {{--<h4><b>{{}}</b></h4>--}}
-                                        {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum error explicabo--}}
-                                        {{--facere ipsa--}}
-                                        {{--iusto--}}
-                                        {{--labore odit quidem quisquam quos repellendus sint, sit voluptates voluptatum. </p>--}}
-                                        {{--</div>--}}
-                                    </div>
+                            <div class="col-md-6">
+                                <div class="shadow" style="padding:10px">
+                                    <img src="{{ asset('sheetmusic_examples/indonesia raya.png') }}" class=""
+                                         alt=""
+                                         width="100%">
                                 </div>
-                                <div class="col-md-6">
-                                    <div style="padding:15px;">
-                                        <h3>Title</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut autem deserunt dolor doloribus eius error expedita illo minima natus neque nihil omnis provident quidem, sapiente ullam, unde velit voluptas voluptate.</p>
-                                        <button id="play">Play</button>
-                                    </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div style="padding:15px;">
+                                    <h3>Indonesia Raya</h3>
+                                    <p>"Indonesia Raya" (English: Great Indonesia) is the national anthem of Indonesia. It has been the national anthem since the proclamation of Indonesian independence on 17 August 1945. The song was introduced by its composer, Wage Rudolf Supratman, on 28 October 1928 during the Second Indonesian Youth Congress in Batavia.The song marked the birth of the all-archipelago nationalist movement in Indonesia that supported the idea of one single "Indonesia" as successor to the Dutch East Indies, rather than split into several colonies. The first newspaper to openly publish the musical notation and lyrics of "Indonesia Raya" — an act of defiance towards the Dutch authorities — was the Chinese Indonesian weekly Sin Po. Source: Wikipedia</p>
+                                    <button id="play"><a href="/15471056521134292584">Play</a></button>
                                 </div>
+                            </div>
 
-                                <div style="height: 35px;" class="col-md-12"></div>
-                            @endforeach
+                            <div style="height: 35px;" class="col-md-12"></div>
                         </div>
                     </div>
                 </div>

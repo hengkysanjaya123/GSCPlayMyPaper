@@ -1,6 +1,7 @@
 @extends('master')
 @section('assets')
     <meta name="xml" content="{{$name}}">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}" />
     <link rel="stylesheet" href="{{asset('css/midiplayer.css')}}" />
 
     <script src="{{asset('js/verovio-toolkit.js')}}"></script>
