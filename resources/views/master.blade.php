@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
     <link rel="icon" href="{{asset('images/logo.png')}}">
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <script src="{{asset('js/jquery.js')}}"></script>
     @yield('assets')
     <title>PlayMyPaper</title>
