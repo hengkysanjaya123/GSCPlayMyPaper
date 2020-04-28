@@ -76,7 +76,7 @@
             <!-- Topbar -->
 
             <!-- Container Fluid-->
-            <div class="container-fluid" id="container-wrapper">
+            <div class="container" id="container-wrapper" >
                 @yield('section')
             </div>
             <!---Container Fluid-->

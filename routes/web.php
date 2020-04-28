@@ -14,7 +14,7 @@
 //Route::get('/', 'IndexController@index');
 Route::get('/gallery', 'GalleryController@index');
 Route::get('/openmusic', 'OpenmusicController@index');
-Route::get('/', 'DashboardController@index');
+Route::get('/', 'OpenmusicController@index');
 Route::post('uploadFile', 'IndexController@uploadFile');
 Route::get('/{kode}', 'IndexController@playMusic');
 Route::get('/test/test', 'IndexController@test');
