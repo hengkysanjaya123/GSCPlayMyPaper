@@ -1,19 +1,24 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
 
-class IndexController extends Controller{
-    public function index(){
+class IndexController extends Controller
+{
+    public function index()
+    {
         return view('index');
     }
 
-    public function dashboard(){
+    public function dashboard()
+    {
         return view('dashboard');
     }
 
-    public function uploadFile(Request $request){
+    public function uploadFile(Request $request)
+    {
         $file = $request->file('file');
         $image = File::get($file);
         $name = strtotime(date('y-m-d h:i:s')) . rand();
@@ -23,19 +28,21 @@ class IndexController extends Controller{
         return $this->convert($name, $ext);
     }
 
-    public function convert($name, $ext){
+    public function convert($name, $ext)
+    {
 //        return PHP_OS;
 //        WINNT
 
-        return 'cd '. base_path('audiveris') .' &&
-        gradlew run -PcmdLineArgs="-batch,-export,-output,'. base_path('public/xml') .',--,'. base_path('public/scan/'. $name . $ext).'" &&
-        cd '. base_path('public/xml/' . $name) . '
-         tar -xf '. $name . '.mxl';
 
-        exec('cd '. base_path('audiveris') .' &&
-        gradlew run -PcmdLineArgs="-batch,-export,-output,'. base_path('public/xml') .',--,'. base_path('public/scan/'. $name . $ext).'" &&
-        cd '. base_path('public/xml/' . $name) . '
-         tar -xf '. $name . '.mxl');
+//        exec('cd '. base_path('audiveris') .' &&
+//        gradlew run -PcmdLineArgs="-batch,-export,-output,'. base_path('public/xml') .',--,'. base_path('public/scan/'. $name . $ext).'" &&
+//        cd '. base_path('public/xml/' . $name) . '
+//         tar -xf '. $name . '.mxl');
+
+        exec('cd ' . base_path('audiveris') . ' &&
+        sudo gradle run -PcmdLineArgs="-batch,-export,-output,' . base_path('public/xml') . ',--,' . base_path('public/scan/' . $name . $ext) . '" &&
+        cd ' . base_path('public/xml/' . $name) . '
+        sudo unzip -a ' . $name . '.mxl');
 
         $returnJSON = [
             'name' => $name,
@@ -44,7 +51,8 @@ class IndexController extends Controller{
         return response()->json($returnJSON);
     }
 
-    public function test(){
+    public function test()
+    {
         exec('
         cd /Users/lukicenturi/Sites/audiveris &&
         sudo gradle run -PcmdLineArgs="-batch,-export,-output,/Users/lukicenturi/Sites/playmypaper/public/xml,--,/Users/lukicenturi/Sites/playmypaper/public/scan/1547104840231287994.jpg"', $a);
@@ -53,7 +61,8 @@ class IndexController extends Controller{
         echo "</pre>";
     }
 
-    public function playMusic($name, Request $request){
+    public function playMusic($name, Request $request)
+    {
         $files = [
             "000_acoustic_grand_piano",
             "001_acoustic_brite_piano",
@@ -129,9 +138,9 @@ class IndexController extends Controller{
             "125_helicopter"
         ];
 
-        if(!$request->has('instrument') || !in_array($request->get('instrument'), $files)){
+        if (!$request->has('instrument') || !in_array($request->get('instrument'), $files)) {
             $instrument = $files[0];
-        }else{
+        } else {
             $instrument = $request->get('instrument');
         }
 
