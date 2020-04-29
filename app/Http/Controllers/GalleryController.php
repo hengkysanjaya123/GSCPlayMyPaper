@@ -17,6 +17,10 @@ class GalleryController extends Controller{
         return view('gallery')->with('images',$images);
     }
 
+    public function virtualpiano(){
+        return view('virtualpiano');
+    }
+
     public function uploadFile(Request $request){
         $file = $request->file('file');
         $image = File::get($file);

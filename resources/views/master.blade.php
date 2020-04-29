@@ -27,16 +27,11 @@
     <ul class="navbar-nav sidebar sidebar-light accordion" id="accordionSidebar">
         <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
             <div class="sidebar-brand-icon">
-                <img src="images/logo.png">
+                {{--<img src="images/logo.png">--}}
             </div>
             <div class="sidebar-brand-text mx-3">PlayMyPaper</div>
         </a>
-        <hr class="sidebar-divider my-0">
-        <li class="nav-item active">
-            <a class="nav-link" href="index.html">
-                <i class="fas fa-fw fa-tachometer-alt"></i>
-                <span>Dashboard</span></a>
-        </li>
+
         <hr class="sidebar-divider">
         <div class="sidebar-heading">
             Features
@@ -44,7 +39,7 @@
 
         <li class="nav-item">
             <a class="nav-link" href="openmusic">
-                <i class="fab fa-fw fa-wpforms"></i>
+                <i class="fab fa-fw fa-openid"></i>
                 <span>Open Music Sheet</span>
             </a>
         </li>
@@ -53,6 +48,13 @@
             <a class="nav-link" href="gallery">
                 <i class="fab fa-fw fa-wpforms"></i>
                 <span>Gallery Music</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="virtualpiano">
+                <i class="fab fa-fw fa-wpforms"></i>
+                <span>Play Virtual Piano</span>
             </a>
         </li>
 
@@ -76,7 +78,7 @@
             <!-- Topbar -->
 
             <!-- Container Fluid-->
-            <div class="container-fluid" id="container-wrapper">
+            <div class="container" id="container-wrapper" >
                 @yield('section')
             </div>
             <!---Container Fluid-->
@@ -101,9 +103,7 @@
 </body>
 </html>
 
-<script src="{{asset('vendor/jquery/jquery.min.js')}}"></script>
-<script src="{{asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-<script src="{{asset('vendor/jquery-easing/jquery.easing.min.js')}}"></script>
-<script src="{{asset('js/ruang-admin.min.js')}}"></script>
-<script src="{{asset('vendor/chart.js/Chart.min.js')}}"></script>
-<script src="{{asset('js/demo/chart-area-demo.js')}}"></script>
+<script src="{{asset('dashboard/vendor/jquery/jquery.min.js')}}"></script>
+<script src="{{asset('dashboard/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<script src="{{asset('dashboard/vendor/jquery-easing/jquery.easing.min.js')}}"></script>
+<script src="{{asset('dashboard/js/ruang-admin.min.js')}}"></script>
