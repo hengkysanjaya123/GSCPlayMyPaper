@@ -14,13 +14,22 @@ Our platform provides:
 #### Gallery Music 
 _To play instrument from the music sheet_
 
+List Music Sheet
+
 ![](screenshot_output/2.png)
+
+Play the instrument from the sheet
 
 ![](screenshot_output/3.png)
 
 #### Play Virtual Piano
-_See the virtual piano plays the music then learn musics in fun way and easy_
+_The virtual piano plays the music then learn musics in fun way and easy!_
+
+List Music
+
 ![](screenshot_output/4.png)
+
+Plays the music together with the system
 
 ![](screenshot_output/5.png)
 
