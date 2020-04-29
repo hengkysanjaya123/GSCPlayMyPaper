@@ -14,6 +14,10 @@
 //Route::get('/', 'IndexController@index');
 Route::get('/gallery', 'GalleryController@index');
 Route::get('/openmusic', 'OpenmusicController@index');
+Route::get('/community', 'CommunityController@index');
+Route::get('/addpostspage', 'AddpostsController@index');
+Route::post('insertpost', 'AddpostsController@insertDB');
+Route::post('uploadFile', 'AddpostsController@insertDB');
 Route::get('/', 'DashboardController@index');
 Route::post('uploadFile', 'IndexController@uploadFile');
 Route::get('/{kode}', 'IndexController@playMusic');
