@@ -27,6 +27,11 @@ class IndexController extends Controller{
 //        return PHP_OS;
 //        WINNT
 
+        return 'cd '. base_path('audiveris') .' &&
+        gradlew run -PcmdLineArgs="-batch,-export,-output,'. base_path('public/xml') .',--,'. base_path('public/scan/'. $name . $ext).'" &&
+        cd '. base_path('public/xml/' . $name) . '
+         tar -xf '. $name . '.mxl';
+
         exec('cd '. base_path('audiveris') .' &&
         gradlew run -PcmdLineArgs="-batch,-export,-output,'. base_path('public/xml') .',--,'. base_path('public/scan/'. $name . $ext).'" &&
         cd '. base_path('public/xml/' . $name) . '
