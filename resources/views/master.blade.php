@@ -103,7 +103,7 @@
 </body>
 </html>
 
-<script src="{{asset('dashboard/vendor/jquery/jquery.min.js')}}"></script>
-<script src="{{asset('dashboard/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-<script src="{{asset('dashboard/vendor/jquery-easing/jquery.easing.min.js')}}"></script>
-<script src="{{asset('dashboard/js/ruang-admin.min.js')}}"></script>
+{{--<script src="{{asset('dashboard/vendor/jquery/jquery.min.js')}}"></script>--}}
+{{--<script src="{{asset('dashboard/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>--}}
+{{--<script src="{{asset('dashboard/vendor/jquery-easing/jquery.easing.min.js')}}"></script>--}}
+{{--<script src="{{asset('dashboard/js/ruang-admin.min.js')}}"></script>--}}

@@ -9,7 +9,7 @@ class CommunityController extends Controller
 {
     public function index()
     {
-   		$posts = DB::select('select * from posts');
+//   		$posts = DB::select('select * from posts');
    		$text = "";
         return view('community', ['text'=>$text]);
     }

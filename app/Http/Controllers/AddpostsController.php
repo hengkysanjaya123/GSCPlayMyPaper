@@ -1,51 +1,53 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use Carbon\Carbon;
-use Illuminate\Http\Request;
-use Intervention\Image\ImageManagerStatic as Image;
 use DB;
+use Illuminate\Http\Request;
 use Storage;
 
 class AddpostsController extends Controller
 {
-        public function index()
+    public function index()
     {
         return view('addpostspage');
     }
-public function insertDB(Request $request){
 
-		$postTitle = $request->input('postTitle');	
-		$name = $request->input('name');
-		$caption = $request->input('caption');
-		$image = $request->file(('uploadedImage'));
-		// if ($request->hasFile('uploadedImage')) {
-  //           $image      = $request->file('uploadedImage');
-  //           $fileName   = time() . '.' . $image->getClientOriginalExtension();
+    public function insertDB(Request $request)
+    {
 
-  //           $img = Image::make($image->getRealPath());
-  //           $img->resize(120, 120, function ($constraint) {
-  //               $constraint->aspectRatio();                 
-  //           });
+        $postTitle = $request->input('postTitle');
+        $name = $request->input('name');
+        $caption = $request->input('caption');
+        $image = $request->file(('uploadedImage'));
+        // if ($request->hasFile('uploadedImage')) {
+        //           $image      = $request->file('uploadedImage');
+        //           $fileName   = time() . '.' . $image->getClientOriginalExtension();
 
-  //           $img->stream(); 
+        //           $img = Image::make($image->getRealPath());
+        //           $img->resize(120, 120, function ($constraint) {
+        //               $constraint->aspectRatio();
+        //           });
 
-  //           Storage::disk('local')->put('images/1/smalls'.'/'.$fileName, $img, 'public');
-  //       }
-  //       else{
-  //       	echo "<script>";
-		// 	echo "alert('Something went wrong with the image upload! Please try again');";
-		// 	echo "</script>";
-		// 	return view('addpostspage');
-  //       }
-  //       $picture = 'images/1/smalls'.'/'.$fileName;
-		$time = Carbon::now();	
-		// // $time = $time->format('d F y H:i');
+        //           $img->stream();
 
-		// $data=array('postTitle'=>$postTitle,"user"=>$name,"caption"=>$caption,"picture"=>$picture,"time"=>$time);
-		// DB::table('posts')->insert($data);
+        //           Storage::disk('local')->put('images/1/smalls'.'/'.$fileName, $img, 'public');
+        //       }
+        //       else{
+        //       	echo "<script>";
+        // 	echo "alert('Something went wrong with the image upload! Please try again');";
+        // 	echo "</script>";
+        // 	return view('addpostspage');
+        //       }
+        //       $picture = 'images/1/smalls'.'/'.$fileName;
+        $time = Carbon::now();
+        // // $time = $time->format('d F y H:i');
 
-		$text = '	
+        // $data=array('postTitle'=>$postTitle,"user"=>$name,"caption"=>$caption,"picture"=>$picture,"time"=>$time);
+        // DB::table('posts')->insert($data);
+
+        $text = '	
 		<div class="row">
 			<div class="col l5 s5 m5">
 			<div class="card large">	
@@ -84,6 +86,6 @@ public function insertDB(Request $request){
 
 
 		</div>';
-		return view('community', ['text'=>$text]);
-	}
+        return view('community', ['text' => $text]);
+    }
 }

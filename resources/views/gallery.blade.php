@@ -64,31 +64,7 @@
                                         circumstances of its composition are known (suggested dates range from 1680 to
                                         1706), and the oldest surviving manuscript copy of the piece dates from the 19th
                                         century. Source: Wikipedia</p>
-                                    <button id="play"><a href="/15471056521134292584">Play</a></button>
-                                </div>
-                            </div>
-
-                            <div style="height: 35px;" class="col-md-12"></div>
-                        </div>
-
-
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="shadow" style="padding:10px">
-                                    <img src="{{ asset('sheetmusic_examples/carmen.png') }}" class=""
-                                         alt=""
-                                         width="100%">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div style="padding: 5px 15px;">
-                                    <h3>Carmen</h3>
-                                    <p>Carmen [kaʁ.mɛn] is an opera in four acts by French composer Georges Bizet. The
-                                        libretto was written by Henri Meilhac and Ludovic Halévy, based on a novella of
-                                        the same title by Prosper Mérimée. The opera was first performed by the
-                                        Opéra-Comique in Paris on 3 March 1875, where its breaking of conventions
-                                        shocked and scandalized its first audiences. Source: Wikipedia</p>
-                                    <button id="play"><a href="/15471056521134292584">Play</a></button>
+                                    <button id="play"><a href="/1547104840231287994">Play</a></button>
                                 </div>
                             </div>
 
