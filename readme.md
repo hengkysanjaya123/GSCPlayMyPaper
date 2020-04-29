@@ -13,13 +13,17 @@ Our platform provides:
 
 #### Gallery Music 
 _To play instrument from the music sheet_
+
 ![](screenshot_output/2.png)
+
 ![](screenshot_output/3.png)
 
 #### Play Virtual Piano
 _See the virtual piano plays the music then learn musics in fun way and easy_
 ![](screenshot_output/4.png)
+
 ![](screenshot_output/5.png)
+
 ![](screenshot_output/6.png)
 
 #### Community
